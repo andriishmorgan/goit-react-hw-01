@@ -1,0 +1,23 @@
+.tableTransaction {
+  border-collapse: collapse;
+  width: 400px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+.headerTransaction {
+  background-color: rgb(71, 68, 68);
+  color: white;
+  padding: 8px;
+  border: 1px solid black;
+}
+.rowCell {
+  border: 1px solid black;
+  padding: 5px;
+}
+.transactionRow:nth-child(even) {
+  background-color: silver;
+}
+.transactionRow:nth-child(odd) {
+  background-color: white;
+}
